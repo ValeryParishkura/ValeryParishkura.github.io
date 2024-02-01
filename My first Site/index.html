@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width = device-width" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="navbar">
+          <div class="container">
+            <div class="nav_info">
+              <div class="profile">
+                <div class="nav_ava">
+                  <img src="./img/ava.jpg" alt="aватар" />
+                </div>
+                <div class="name_ava">Valery Parishkura</div>
+              </div>
+              <div class="nav_panel">
+                <a id="#home" href="./index.html"><button>Home</button></a>
+                <a href="#About__"><button>About</button></a>
+                <a href="#Contact__"><button>Contact</button></a>
+              </div>
+              <div class="nav_social">
+                <a href="https://vk.com/enemyofreality"
+                  ><img src="./img/vk.png" alt="vk"
+                /></a>
+                <a
+                  href="https://www.youtube.com/channel/UCb1aDJRSp6UplqYQYwkCISg"
+                  ><img src="./img/youtube.png" alt="youtube"
+                /></a>
+                <a
+                  href="https://www.spotify.com/de/account/overview/?utm_source=spotify&utm_medium=menu&utm_campaign=your_account"
+                  ><img src="./img/spotify.png" alt="spotify"
+                /></a>
+                <a href="https://github.com/ValeryParishkura"
+                  ><img src="./img/git.png" alt="git"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <main class="info">
+        <div class="about_me">
+          <div class="container">
+            <div class="hi">
+              <div class="block_hi">
+                <h1>Привет! Меня зовут Валерий!</h1>
+                <p class="hi_text">
+                  Здесь ты сможешь узнать некоторую информацию обо мне и моих
+                  увлечениях!
+                </p>
+                <blockquote class="blockquote-2">
+                  <p>“Дорогу осилит идущий“</p>
+                  <cite>Вилорий Ефимович</cite>
+                </blockquote>
+                <a href="#Contact__"
+                  ><button class="contact">Связаться со мной</button></a
+                >
+              </div>
+              <div class="block_ava">
+                <img src="./img/ava2.jpg" alt="аватар" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tittle">
+          <h2 id="About__">About me</h2>
+          <p>
+            Мне 27 лет и сейчас я проживаю в Санкт-Петербурге. В данный момент я
+            прохожу обучение в школе программирования Elbrus Bootcamp. Ниже
+            можно увидеть мои основные увлечения!
+          </p>
+        </div>
+        <div class="about_me2">
+          <div class="container">
+            <div class="hobby">
+              <div class="hobby_1">
+                <h2>Сноубординг</h2>
+                <img src="./img/snow.jpg" alt="Сноубординг" />
+              </div>
+              <div class="hobby_2">
+                <h2>Путешествия</h2>
+                <img src="./img/travel.jpg" alt="путешествия" />
+              </div>
+              <div class="hobby_3">
+                <h2>Походы</h2>
+                <img src="./img/pohod.jpg" alt="Походы" />
+              </div>
+              <div class="hobby_4">
+                <h2>Игра на гитаре</h2>
+                <img src="./img/guitar.jpg" alt="Игра на гитаре" />
+              </div>
+              <div class="hobby_5">
+                <h2>Сапбординг</h2>
+                <img src="./img/sup.jpg" alt="Сапбординг" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="contact_me">
+            <h2 id="Contact__">Contact Me</h2>
+            <p>
+              Если ты захочешь связаться со мной, заполни небольшую форму и
+              отправь сообщение
+            </p>
+            <div class="form_">
+              <form action="./index.html">
+                <input
+                  id="name"
+                  name="name"
+                  type="name"
+                  placeholder="Введите ваше имя..."
+                />
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="Введите ваш email..."
+                />
+                <br />
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Введите ваше сообщение..."
+                  rows="2"
+                ></textarea>
+                <br />
+                <input type="submit" name="send" value="Отправить" id="send" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.info {
+  flex: 1 1 auto;
+}
+
+.header {
+  background-color: #0c0d1f;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* @media (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+}
+
+@media (max-width: 990px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 765) {
+  .container {
+    max-width: none;
+  }
+} */
+
+.nav_info {
+  display: flex;
+  padding: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header img {
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid blueviolet;
+}
+
+.nav_ava img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.nav_social img {
+  margin: 0 5px;
+}
+
+.nav_social img:hover {
+  border: 4px solid #fa7161;
+}
+
+.name_ava {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  color: blueviolet;
+  font-weight: bold;
+}
+
+.button {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.nav_panel button {
+  color: blueviolet;
+  border: none;
+  background: transparent;
+  font-size: 30px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.nav_panel button:hover {
+  background: #fa7161;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.blockquote-2 {
+  margin: 16px 16px 30px 16px;
+  padding: 26px 24px;
+  font-size: 16px;
+  background: white;
+  border: 5px ridge black;
+  color: #fa7161;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  font-size: 25px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.blockquote-2 cite {
+  float: right;
+  font-size: 18px;
+  color: black;
+}
+
+.about_me {
+  background-color: #fa7161;
+  color: white;
+}
+
+.footer {
+  background-color: #0c0d1f;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: blueviolet;
+  font-size: 25px;
+  padding: 15px 0;
+}
+
+.contact_me {
+  text-align: center;
+  margin: 20px auto;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  max-width: 800px;
+}
+
+.contact_me p {
+  margin: 20px 0;
+}
+.footer h2 {
+  color: white;
+}
+
+.hi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.hi_text {
+  color: black;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.block_ava img {
+  width: 300px;
+  border: 5px ridge black;
+  margin-left: 20px;
+}
+
+button.contact {
+  color: blueviolet;
+  border: none;
+  background: black;
+  font-size: 25px;
+  margin: 15px;
+  margin-left: 40px;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button.contact:hover {
+  background: white;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.tittle {
+  text-align: center;
+  margin: 20px auto;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  max-width: 800px;
+}
+
+.tittle h2 {
+  font-size: 40px;
+}
+
+.tittle p {
+  color: #787989;
+  font-size: 25px;
+}
+
+.about_me2 {
+  background-color: #fa7161;
+  color: white;
+}
+.hobby img {
+  height: 300px;
+  border: 5px ridge black;
+  margin: 0 20px;
+}
+
+.hobby {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+h2 {
+  color: black;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin: 10px;
+}
+
+::placeholder {
+  color: #787989;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.form_ input {
+  color: #787989;
+  border: none;
+  background: transparent;
+  border-bottom: 3px solid black;
+  margin: 20px;
+  padding: 10px;
+  outline: none;
+}
+
+textarea {
+  color: #787989;
+  border: none;
+  background: transparent;
+  border-bottom: 3px solid black;
+  outline: none;
+  width: 420px;
+}
+
+#send {
+  color: blueviolet;
+  border: none;
+  background: black;
+  font-size: 25px;
+  margin: 15px;
+  margin-left: 40px;
+  border-radius: 10px;
+  padding: 20px;
+  font-weight: bold;
+  width: 200px;
+  cursor: pointer;
+}
+
+#send:hover {
+  background: #fa7161;
+  color: white;
+}
